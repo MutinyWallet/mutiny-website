@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Yantramanav";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/yantramanav-300.woff") format("woff2");
+}
+
+@font-face {
+  font-family: "Yantramanav";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./fonts/yantramanav-700.woff2") format("woff2");
+}
+
+/* Light mode */
+:root {
+  --body-bg: #000;
+  --body-color: #fff;
+  --link-color: #fff;
+  --blue: #0b215b;
+}
+
+body {
+  color: var(--body-color);
+  font-size: 22px;
+  height: calc(100vh - 4rem);
+  padding: 2rem;
+  overflow: hidden;
+  background: linear-gradient(180deg, #000000 0%, #0b215b 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--link-color);
+  font-weight: 700;
+}
