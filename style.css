@@ -30,10 +30,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: "Yantramanav", sans-serif;
 }
 
 p {
   margin-top: 1rem;
+}
+
+p:first-of-type {
+  margin-top: 4rem;
 }
 
 a {
