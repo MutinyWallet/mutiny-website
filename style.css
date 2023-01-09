@@ -23,10 +23,9 @@
 body {
   color: var(--body-color);
   font-size: 22px;
-  height: calc(100vh - 4rem);
   padding: 2rem;
-  overflow: hidden;
   background: linear-gradient(180deg, #000000 0%, #0b215b 100%);
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,3 +44,5 @@ a {
   color: var(--link-color);
   font-weight: 700;
 }
+
+ma
